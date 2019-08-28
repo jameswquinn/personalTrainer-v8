@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App</title>
+  <!-- Performance tip: hint to the browser to start the handshake for the fonts site -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <script>
+    // Load and register pre-caching Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: '/',
+        });
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <noscript>
+    Please enable JavaScript to view this website.
+  </noscript>
+</body>
+
+</html>
