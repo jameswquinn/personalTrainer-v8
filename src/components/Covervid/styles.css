@@ -1,0 +1,30 @@
+/** start of global css */
+:root {
+   --video-header__video__z-index: 1;
+}
+
+header {
+  /* Create grid spanning viewport width & height */
+  display: grid;
+  grid-template-rows: 100vh;
+}
+/** end of global css */
+
+.covervid,
+.covervid video,
+.covervid img {
+  /* Create grid spanning viewport width & height */
+  display: grid;
+	grid-template-rows: 100vh;
+}
+
+.covervid video,
+.covervid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+	object-position: centre;
+  z-index: var(--video-header__video__z-index);
+}
+
+

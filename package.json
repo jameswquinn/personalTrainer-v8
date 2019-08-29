@@ -83,10 +83,11 @@
   "dependencies": {
     "lazysizes": "^5.1.0",
     "lozad": "^1.9.0",
+    "popmotion": "^8.7.0",
     "preact": "^10.0.0-rc.1",
-    "preact-router": "^3.0.1",
     "preact-async-route": "^2.2.1",
     "preact-helmet": "^4.0.0-alpha-3",
+    "preact-router": "^3.0.1",
     "timeago.js": "^4.0.0-beta.2"
   }
 }
