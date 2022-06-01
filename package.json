@@ -60,7 +60,7 @@
     "responsive-loader": "^1.2.0",
     "sass-loader": "^7.1.0",
     "sha512": "0.0.1",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "size-plugin": "^1.2.0",
     "style-loader": "^0.23.1",
     "svgo-loader": "^2.2.0",
